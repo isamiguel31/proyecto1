@@ -1,0 +1,59 @@
+p{ font family: verdana;/*tipo de letras*/
+text-align: justufy;/*alineación del texto*/
+color: red; /*color de la fuente*/
+font-size:24 px;/*tamaño de la fuente*/
+font-style: italic; /*estilo */
+font-weight: bold; /* negrito o fuerte*/
+}
+body {
+background-color: lightblue; /*color de fondo del body*/
+}
+/* color y alineación de la etiqueta h1*/
+h1 { color: black;
+font-weight: bold;/* negrito o fuerte*/
+font-style: italic; /*estilo */
+text-align: center;/*alineación*/
+}
+
+/*
+.estilo2 p{ color: black;
+	font-style: italic; 
+	font-weight: bold; 
+	text-align: center; 
+}
+
+.estilo3 p{ color: green;
+	font-style: italic; 
+	font-weight: bold; 
+	text-align: center; 
+}
+*/
+
+*{ margin:0;
+padding:0;
+}
+
+.titulo{
+ background-color: #92a8d1;
+margin: 20px;
+}
+
+.parrafo p{
+ background-color: lightslategrey;
+padding-top:50px;
+padding-left: 10px;
+padding-bottom: 60px;
+padding-right: 10px;
+width: 97%;
+margin: 20px;
+}
+
+footer{
+background-color: GoldenRod;
+padding: 10px 20px 30px 40px;
+position: fixed;
+width: 97%;
+left: 0;
+bottom: 0;
+margin: 20px;
+}
